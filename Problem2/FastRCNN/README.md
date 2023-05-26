@@ -2,6 +2,8 @@
 
 To train the model entirely, run ```python main.py``` in the command line. The model will be trained in 20 epochs and for each epoch from the 7th, the model parameters will be saved in ```logs/FasterRCNN/saves/```, you can pick up the best model parameters after training.
 
+Remarks: Before training, please place the VOC dataset under the file path ```data\voc```
+
 # Test Model
 
 If you want to test the model I have seleted (18 training epochs), you can detect unknown images in the following two steps:
