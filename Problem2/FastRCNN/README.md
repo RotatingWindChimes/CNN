@@ -23,5 +23,3 @@ Remarks:
 * File ```logs```
 * * It contains the model parameters after each training epoch in ```logs/FasterRCNN/saves```
 * * The results for tensorboard visualization are also stored in this file
-
-* 
