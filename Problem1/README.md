@@ -14,3 +14,8 @@ After you train the model, the parameters will be saved  as a file with the suff
 
 # Test Model
 
+You can test the selected model parameters by running the following command ```python test.py --type base```
+
+You can also test all models at once by running the following command ```python test.py --type base mixup cutmix cutout``` or in any order you like.
+* Remarks:
+** Please download the model parameters to the current folder before testing. Baidu web disk link is as follows:
