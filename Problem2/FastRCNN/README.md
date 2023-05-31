@@ -3,7 +3,8 @@
 To train the model entirely, run ```python main.py``` in the command line. The model will be trained in 20 epochs and for each epoch from the 7th, the model parameters will be saved in ```logs/FasterRCNN/saves/```, you can pick up the best model parameters after training.
 
 Remarks: 
-* Before training, please place the VOC dataset under the file path ```data/voc```, the dataset is available at the Baidu Web disk link below.
+* Before training, please place the VOC dataset under the file path ```data/voc```, the dataset is available at the Baidu Web disk link below(password __2qd8__):
+https://pan.baidu.com/s/1B4fDqBkCtnBvcEMeKuqG8w?pwd=2qd8
 * Please unzipped the dataset you have just downloaded to the file path ```data/voc```
 
 # Test Model
@@ -13,7 +14,7 @@ If you want to test the model I have seleted (18 training epochs), you can detec
 * step 2: Enter ```python test.py --name filename``` in the command line. You can detect images in __any format__, such as jpg, jpeg, png, etc, just make sure the filename is complete and correct. The result will be saved as a __jpg image__ in the same path, and the image will start with the same name. (For example, if you have a picture named "03.jpg" in the ```unseen``` file, you can run ```python test.py --name 03.jpg``` to get the result. It will be saved as __03_pred.jpg__ in ```unseen``` file.)
 
 Remarks: 
-* Before training, please place the model parameters under the file path ```logs/FasterRCNN/saves/```, the parametes are available at the Baidu Web disk link below.
+* Before training, please place the model parameters under the file path ```logs/FasterRCNN/saves/```, the parametes are available at the Baidu Web disk link below(password __539m__): https://pan.baidu.com/s/1TCskCorLRwtG38HoeXaU1A?pwd=539m
 * You can detect different images in the same time, just enter ```python test.py --name filename1 filename2...``` in the command line.
 
 # Some Explanations
