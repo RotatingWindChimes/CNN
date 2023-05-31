@@ -19,4 +19,5 @@ You can test the selected model parameters by running the following command ```p
 You can also test all models at once by running the following command ```python test.py --type base mixup cutmix cutout``` or in any order you like.
 
 * Remarks:
-Please download the model parameters to the current folder before testing. Baidu web disk link is as follows:
+Please download the model parameters to the current folder before testing. Baidu web disk link is as follows(password __j61t__):
+https://pan.baidu.com/s/1m6p2RdP8ktqQ1kjBNCpO6A?pwd=j61t
