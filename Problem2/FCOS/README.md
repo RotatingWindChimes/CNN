@@ -7,4 +7,4 @@ To run this program and train the whole model entirely, run ```python main.py```
 
 # Test
 
-To test the selected model, run ```test.py``` in the command line, the selected model is available in the following link: https://pan.baidu.com/s/18MSLqlsr7qE2b_42sMymYA?pwd=dnh3(password __dnh3__)
+To test the selected model, run ```detect.py``` in the command line, the selected model is available in the following link: https://pan.baidu.com/s/18MSLqlsr7qE2b_42sMymYA?pwd=dnh3(password __dnh3__)
