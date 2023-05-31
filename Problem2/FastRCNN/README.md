@@ -2,7 +2,9 @@
 
 To train the model entirely, run ```python main.py``` in the command line. The model will be trained in 20 epochs and for each epoch from the 7th, the model parameters will be saved in ```logs/FasterRCNN/saves/```, you can pick up the best model parameters after training.
 
-Remarks: Before training, please place the VOC dataset under the file path ```data/voc```, the dataset is available at the Baidu Web disk link below.
+Remarks: 
+* Before training, please place the VOC dataset under the file path ```data/voc```, the dataset is available at the Baidu Web disk link below.
+* Please unzipped the dataset you have just downloaded to the file path ```data/voc```
 
 # Test Model
 
